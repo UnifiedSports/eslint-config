@@ -1,11 +1,13 @@
-# @unifieduports/eslint-config
+# @unifiedsports/eslint-config
+
+Common ESLint configuration for UnifiedSports packages.
 
 ## Usage
 
 1. Installation
 
 ```sh
-npx install-peerdeps @unifiedsports/eslint-config --dev --yarn
+npx install-peerdeps @unifiedsports/eslint-config --dev
 ```
 
 **With Yarn:**
