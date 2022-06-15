@@ -9,19 +9,23 @@
   "dependencies": {
     "eslint-config-airbnb-base": "^15.0.0"
   },
-  "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.19.0",
-    "@typescript-eslint/parser": "^5.0.0",
+  "devDependencies": {
     "eslint": "^8.0.0",
     "eslint-plugin-disable": "^2.0.1",
     "eslint-plugin-import": "^2.25.4",
-    "eslint-plugin-jest": "^26.1.4",
-    "eslint-plugin-jsdoc": "^37.9.1",
-    "tsutils": "3.21.0",
-    "typescript": "^4.5.5"
+    "eslint-plugin-jsdoc": "^37.9.1"
+  },
+  "peerDependencies": {
+    "eslint": "^8.0.0",
+    "eslint-plugin-disable": "^2.0.1",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsdoc": "^37.9.1"
   },
   "files": [
     "index.js",
     "README.md"
-  ]
+  ],
+  "scripts": {
+    "test": "eslint --ext .js ."
+  }
 }
